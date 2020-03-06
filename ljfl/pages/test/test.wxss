@@ -1,0 +1,21 @@
+.test-top{
+  margin-left: 20px;
+}
+.test-top text{
+  color: #ccc;
+}
+.test-question{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 50px;
+}
+.test-answer{
+  text-align: center;
+  width: 200px;
+  margin: 10px auto;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}

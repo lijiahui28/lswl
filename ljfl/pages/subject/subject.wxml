@@ -1,0 +1,44 @@
+<view class="subject-container">
+  <block>
+    <view class="subject-item">
+      <image src="./img/xlx.png"></image>
+      <text class="item-title">小龙虾</text>
+    </view>
+    <view class="subject-item">
+      <image src="./img/nc.png"></image>
+      <text class="item-title">奶茶</text>
+    </view>
+    <view class="subject-item">
+      <image src="./img/zz.png"></image>
+      <text class="item-title">小粽子</text>
+    </view>
+    <view class="subject-item">
+      <image src="./img/xlx.png"></image>
+      <text class="item-title">小龙虾</text>
+    </view>
+    <view class="subject-item">
+      <image src="./img/nc.png"></image>
+      <text class="item-title">奶茶</text>
+    </view>
+    <view class="subject-item">
+      <image src="./img/zz.png"></image>
+      <text class="item-title">粽子</text>
+    </view>
+    <view class="subject-item">
+      <image src="./img/xlx.png"></image>
+      <text class="item-title">小龙虾</text>
+    </view>
+    <view class="subject-item">
+      <image src="./img/xlx.png"></image>
+      <text class="item-title">小龙虾</text>
+    </view>
+    <view class="subject-item">
+      <image src="./img/xlx.png"></image>
+      <text class="item-title">小龙虾</text>
+    </view>
+    <view class="subject-item">
+      <image src="./img/xlx.png"></image>
+      <text class="item-title">小龙虾</text>
+    </view>
+  </block>
+</view>

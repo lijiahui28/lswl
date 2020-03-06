@@ -1,0 +1,55 @@
+<view>
+  <view class="guide-search">
+    <view class="font_box">
+      <text class="iconfont icon-location"></text>
+      <text>北京</text>
+    </view>
+    <view class="se_box">
+      <text class="iconfont icon-zoom"></text>
+      <input class="input" placeholder="搜索垃圾查看对应分类" bindtap="navTo"></input>
+    </view>
+  </view>
+  <view class="guide_content">
+    <view class="guide-left">
+      <block>
+        <view class="content_box">
+          <view class="tab_card">
+            <view class="icl_box">湿垃圾</view>
+            <view class="icl_box">干垃圾</view>
+            <view class="icl_box">可回收物</view>
+            <view class="icl_box">有害垃圾</view>
+          </view>
+        </view>
+      </block>
+    </view>
+    <view class="guide-right">
+      <block>
+        <view class="lajiInfo">
+          <view class="guide-right-top">
+            <view>
+            湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指
+            </view>
+            <view>
+              湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指
+              湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指湿垃圾是指
+            </view>
+          </view>
+            <block>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+              <view class="guide-right-item">CoCo的青稞</view>
+            </block>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

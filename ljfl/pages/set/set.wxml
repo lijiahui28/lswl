@@ -1,0 +1,20 @@
+<view class="set">
+  <block>
+    <view class="set-sort">语言</view>
+    <view class="set-item">中文</view>
+    <view class="set-item">English</view>
+  </block>
+  <block>
+    <view class="set-sort">城市</view>
+    <view class="set-item">北京</view>
+    <view class="set-item">长春</view>
+    <view class="set-item">成都</view>
+    <view class="set-item">重庆</view>
+    <view class="set-item">长沙</view>
+    <view class="set-item">大连</view>
+    <view class="set-item">德阳</view>
+    <view class="set-item">福州</view>
+    <view class="set-item">广元</view>
+    <view class="set-item">贵阳</view>
+  </block>
+</view>

@@ -1,0 +1,10 @@
+<view class="page">
+  <view class="test-top">01/<text>10</text></view>
+  <view class="test-question">过期的口服液</view>
+  <block>
+    <view class="test-answer">湿垃圾</view>
+    <view class="test-answer">干垃圾</view>
+    <view class="test-answer">可回收物</view>
+    <view class="test-answer">有害垃圾</view>
+  </block>
+</view>
