@@ -1,9 +1,6 @@
 {
   "pages": [
     "pages/guide/guide",
-    "pages/logs/logs",
-    "pages/one/one",
-    "pages/two/two",
     "pages/subject/subject",
     "pages/set/set",
     "pages/test/test"
