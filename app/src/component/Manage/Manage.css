@@ -9,9 +9,7 @@
 .manage-top-l {
     width: 50%;
     float: left;
-    background-color: #199ed8;
     text-align: center;
-    color: #fff;
     font-size: 16px;
     height: 40px;
     line-height: 40px;
@@ -21,10 +19,22 @@
     width: 50%;
     float: left;
     text-align: center;
-    color: #199ed8;
     font-size: 16px;
     height: 40px;
     line-height: 40px;
+}
+
+.manage-add{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 25px;
+    top: 20px;
+}
+
+.manage-add img{
+    width: 24px;
+    height: 24px;
 }
 
 .manage-sel {
