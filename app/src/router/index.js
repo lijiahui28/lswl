@@ -7,6 +7,11 @@ import Manage from '../component/Manage/Manage '
 import About from '../component/about/about'
 import directoradd from '../component/directoradd/directoradd'
 import manageadd from '../component/manageadd/manageadd'
+import sz from '../component/sz/sz'
+import fx from '../component/fx/fx'
+import fk from '../component/fk/fk'
+import bz from '../component/bz/bz'
+import gy from '../component/gy/gy'
 import Index from './index.css'
 function router() { 
     return(
@@ -19,6 +24,11 @@ function router() {
                 <Route path='/about' component={About}/>
                 <Route path='/directoradd' component={directoradd}/>
                 <Route path='/manageadd' component={manageadd}/>
+                <Route path='/sz' component={sz}/>
+                <Route path='/fx' component={fx}/>
+                <Route path='/fk' component={fk}/>
+                <Route path='/bz' component={bz}/>
+                <Route path='/gy' component={gy}/>
                 <Route component={Home}/>
             </Switch>
         </div>

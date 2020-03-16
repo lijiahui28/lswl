@@ -1,8 +1,27 @@
 import React,{Component} from 'react'
 import './Home.css'
 export default class Home extends Component{
-	constructor(){
-		super()
+	constructor(props){
+		super(props)
+		this.state={
+			info:[
+				{
+					name:"aaaaaa",
+					history:"2500.00",
+					month:"2500.00"
+				},
+				{
+					name:"bbbbb",
+					history:"2500.00",
+					month:"2500.00"
+				},
+				{
+					name:"ccccc",
+					history:"2500.00",
+					month:"2500.00"
+				},
+			]
+		}
 	}
 	render(){
 		return(
@@ -45,18 +64,19 @@ export default class Home extends Component{
 						<div className="home-tag-item">本月盈亏</div>
 						<div className="home-tag-item">更多</div>
 					</div>
-					<div className="home-content">
-						<div className="home-content-item">1</div>
-						<div className="home-content-item">aaaaaa</div>
-						<div className="home-content-item">2500.00</div>
-						<div className="home-content-item">25000.00</div>
-					</div>
-					<div className="home-content">
-						<div className="home-content-item">2</div>
-						<div className="home-content-item">bbbbb</div>
-						<div className="home-content-item">2500.00</div>
-						<div className="home-content-item">25000.00</div>
-					</div>
+					{
+						this.state.info.map((el,index)=>{
+							return(
+							<div className="home-content" key={index}>
+								<div className="home-content-item">{index+1}</div>
+								<div className="home-content-item">{el.name}</div>
+								<div className="home-content-item">{el.history}</div>
+								<div className="home-content-item">{el.month}</div>
+							</div>
+					)
+								
+						})
+					}
 				</div>
 			</div>
 		)
